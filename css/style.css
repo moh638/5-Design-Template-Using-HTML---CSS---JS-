@@ -1,0 +1,309 @@
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: cursive;
+
+}
+
+.container{
+	width: 1150px;
+	margin: auto;
+}
+
+.header{
+	width: 100%;
+	height: 350px;
+	background: #803e93;
+}
+
+.header .heading{
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+	border-right: 1px solid darkgray;
+}
+.header .heading h2{
+	width: 75%;
+	color: #fff;
+	line-height: 2.0;
+	font-size: 25px;
+
+	
+}
+.header .heading h2 span:hover{
+	color: #00bc8a;
+	cursor: pointer;
+	
+}
+.header .lorem{
+	width: 40%;
+	margin-left: 3%;
+	float: left;
+	margin-top: 100px;
+}
+.header .lorem p{
+	color: darkgray;
+	line-height: 1.8;
+	font-weight: bold;
+	font-family: Tahoma;
+}
+.header .lorem button{
+	border: 0;
+	background: none;
+	color: #fff;
+	font-size: 20px;
+	background: #00bc8a;
+	padding: 15px;
+	border-radius: 50px;
+	width: 200px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	outline: 0;
+
+}
+
+/*Magna*/
+
+.magna{
+	 width: 100%;
+	 height: 350px;
+	 border-bottom: 2px solid #DDD;
+	 padding-top: 50px;
+}
+
+.magna .learn{
+	 width: 50%;
+	 float:left; 
+	 border-right: 2px solid #DDD;
+}
+
+.magna .learn h2{
+	 font-family: Tahoma;
+	 color: #777;
+	 text-decoration: underline;
+}
+.magna .learn p{
+	 font-family: Tahoma;
+	 color: #888;
+	 line-height: 1.9;
+	 margin-right: 1%;
+}
+
+.magna .learn button{
+	 border: 0;
+	 background: #fff;
+	 border: 1px solid #DDD;
+	 border-radius: 30px;
+	 padding: 15px;
+	 width: 200px;
+	 cursor: pointer;
+	 outline: 0;
+	 color: #888;
+	 text-transform: uppercase;
+}
+
+.magna .ipsum{
+	 width: 40%;
+	 float:left; 
+	 margin-left: 5%;
+	 visibility: hidden;
+}
+
+.magna .ipsum p{
+	 line-height: 2;
+	 font-family: Tahoma;
+	 color: #666;
+	 font-weight: bold;
+}
+
+
+
+.magna .ipsum  i{
+	 padding-right: 25px;
+	 color: #00bc8a; 
+}
+
+/*pha*/
+
+.pha{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	overflow: hidden;
+	background: #f2f2f2;
+}
+
+
+
+.pha .part {
+	padding-bottom: 50px;
+	height: 350px;
+
+}
+
+.pha .part img{
+	float: left;
+	width: 40%;
+
+}
+
+.pha .part .he{
+	float: left;
+	width: 40%;
+	padding-left: 70px;
+	padding-top: 50px;
+
+}
+
+.pha .part .he h2{
+	color: #777;
+	text-decoration: underline;
+	font-family: Tahoma;
+
+}
+
+.pha .part .he p{
+	color: #888;
+	font-family: Tahoma;
+	line-height: 2;
+	font-weight: bold;
+
+}
+
+.pha .part .he button{
+	 background-color: none;
+	 border: 1px solid #DDD;
+	 border-radius: 20px;
+	 padding: 15px;
+	 width: 150px;
+	 cursor: pointer;
+	 outline: 0;
+	 color: #777;
+	 text-transform: uppercase;
+	 font-size: 20px;
+
+}
+
+.pha .part .he button:hover{
+	 background-color: #888;
+	 color: #fff;
+
+
+}
+
+.clear{
+	clear: both;
+}
+
+
+/*form*/
+.form{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+
+.form .inputs{
+	width: 50%;
+	float: left;
+	border-right: 2px solid #DDD;
+}
+
+
+.form .inputs h2{
+	font-family: Tahoma;
+
+}
+
+.form .inputs p{
+	font-family: Tahoma;
+	font-weight: bold;
+	line-height: 2;
+	color: #888;
+}
+
+
+.form .inputs input[type=text],input[type=email] {
+	width: 240px;
+	height: 50px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	outline: 0;
+
+}
+
+
+.form .inputs textarea{
+	width: 517px;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	font-size: 15px;
+	outline: 0;
+
+
+}
+
+
+
+.form .inputs input[type=submit]{
+	 background: #fff;
+	 border: 1px solid #DDD;
+	 border-radius: 20px;
+	 padding: 15px;
+	 width: 150px;
+	 cursor: pointer;
+	 outline: 0;
+	 text-transform: uppercase;
+	
+	 margin-top: 15px;
+
+}
+
+
+
+
+.form .links{
+	 float:left; 
+	 padding-top: 50px;
+	 padding-left: 50px; 
+
+}
+
+.form .links p{
+	 line-height: 2;
+	 font-family: Tahoma;
+	 color: #666;
+	 font-weight: bold;	 
+
+}
+
+.form .links i{
+	 padding-right: 25px;
+	 color: #00bc8a; 	 
+}
+
+/*Footer*/
+
+.footer{
+	width: 100%;
+	height: 150px;
+	border-top: 1px solid #ddd;
+}
+
+
+.footer p{
+	text-align: center;
+	line-height: 150px;
+	font-family: Tahoma;
+	color: #777;
+}
+
+ 
